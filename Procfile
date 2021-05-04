@@ -1,1 +1,1 @@
-web: gunicorn send:app
+web: gunicorn main:app
