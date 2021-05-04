@@ -67,6 +67,3 @@ def send():
         return render_template('index.html', username=username, tweet_positif=tweet_positif, tweet_negatif=tweet_negatif,
                                tweet_netral=tweet_netral, positif=positif, netral=netral, negatif=negatif, total_tweet=total_tweet)
     return render_template('form.html')
-
-if __name__ == "__main__":
-    app.run()
